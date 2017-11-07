@@ -6,7 +6,7 @@ Download an parse from UK government API
 URL: https://www.gov.uk/bank-holidays.json
 
 Database:
-
+```
 CREATE TABLE `bank_holidays` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `description` varchar(50) DEFAULT NULL,
@@ -16,3 +16,4 @@ CREATE TABLE `bank_holidays` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `event_date` (`event_date`,`country`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
+```
