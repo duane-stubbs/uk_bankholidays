@@ -1,5 +1,5 @@
 # UK Bank Holidays
-Get UK bank holidays from government gateway API
+Golang UK bank holidays from government gateway API
 
 Download an parse from UK government API
 
