@@ -4,7 +4,9 @@ Get UK bank holidays from government gateway API
 Download an parse from UK government API
 
 URL: https://www.gov.uk/bank-holidays.json
+
 Database:
+
 CREATE TABLE `bank_holidays` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `description` varchar(50) DEFAULT NULL,
